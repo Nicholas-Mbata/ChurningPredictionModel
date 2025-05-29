@@ -1,3 +1,5 @@
+import pickle
+
 # --- Load the trained ML model ---
 try:
     with open('expresso_churn_model.pkl', 'rb') as file:
